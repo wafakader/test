@@ -13,3 +13,11 @@ class Fibonacci:
 f=Fibonacci(13)
 k=f.run()
 print(k)
+
+#on utilisa la récursivité dans cette implémentation 
+#exemple Fibonacci(4)= Fibonacci(3)+Fibonacci(2)
+#                    = (Fibonacci(2)+Fibonacci(1)) + Fibonacci(2)
+#                    = ( (Fibonacci(1)+Fibonacci(0)) + Fibonacci(1) ) + Fibonacci(2)
+#                    = ( (Fibonacci(1)+Fibonacci(0)) + Fibonacci(1) ) + (Fibonacci(1)+Fibonacci(0))
+#                    = ( (1+1) + 1 ) + (1+1)
+#                    = 5
