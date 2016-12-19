@@ -18,3 +18,7 @@ class Fibonacci:
 f=Fibonacci(13)
 k=f.run()
 print(k)
+
+# Pour calculer Fibonacci(13), on commence par tester : 13<>0 et 13<>1 alors on crée la liste u 
+# il faut calculer Fibonacci(2) et Fibonacci(3) ... jusqu'à arriver à Fibonacci(13)
+# on affiche alors l'élément n-1 de la liste u qui correspond au résultat demandé
