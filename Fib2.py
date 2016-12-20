@@ -3,7 +3,9 @@ class Fibonacci:
         self.n = n
 
     def run(self):
-        if (self.n ==1) or (self.n==0):
+        if (self.n ==0) :
+            return 0
+        elif (self.n==1):
         	return 1
 
         else:
