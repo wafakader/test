@@ -9,7 +9,7 @@ class Fibonacci:
             return 1
         else:
             u= []
-            u.append(1)
+            u.append(0)
             u.append(1)
             for i in range(2,self.n+1):
                 x= u[i-1]+u[i-2]
